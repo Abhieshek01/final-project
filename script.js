@@ -18,7 +18,7 @@ overlay.addEventListener("mouseleave",function(){
 })
 
 overlay.addEventListener("mousemove",function(dets){
-    scrolls.style.left = dets.x + "px";
-    scrolls.style.top = dets.y + "px";
+    scrolls.style.left = `${dets.x-45}px`;
+    scrolls.style.top = `${dets.y-38}px`;
 
 })
